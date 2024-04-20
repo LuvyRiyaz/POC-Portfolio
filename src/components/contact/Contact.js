@@ -29,10 +29,10 @@ export default function Contact() {
 
   return (
       <div className="py-4">
-        <h1 className="text-3xl font-bold mb-4">Contact Me</h1>
+<h1 className="text-3xl font-bold mb-4 text-white">Contact Me</h1>
         <form onSubmit={handleSubmit} className="max-w-md mx-auto">
           <div className="mb-4">
-            <label htmlFor="name" className="block mb-2">Name</label>
+            <label htmlFor="name" className="block mb-2 text-bisque">Name</label>
             <input
               type="text"
               id="name"
@@ -44,7 +44,7 @@ export default function Contact() {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block mb-2">Email</label>
+            <label htmlFor="email" className="block mb-2 text-bisque">Email</label>
             <input
               type="email"
               id="email"
@@ -56,7 +56,7 @@ export default function Contact() {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="message" className="block mb-2">Message</label>
+            <label htmlFor="message" className="block mb-2 text-bisque">Message</label>
             <textarea
               id="message"
               name="message"
