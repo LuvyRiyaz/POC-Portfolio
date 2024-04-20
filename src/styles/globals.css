@@ -17,13 +17,8 @@
 }
 
 body {
+   background: radial-gradient(circle at center, #000000 0%, #1a1a1a 50%, #000000 100%);
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
@@ -41,4 +36,15 @@ body {
   to {
     text-shadow: 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f;
   }
+}
+
+@layer utilities {
+  .social-icon path {
+  fill: white; /* Default color */
+}
+
+.social-icon:hover path {
+  fill: #718096; /* Hover color */
+}
+
 }
