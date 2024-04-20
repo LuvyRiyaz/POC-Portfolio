@@ -1,4 +1,3 @@
-// pages/about.js
 import Layout from "@/components/layout/Layout";
 import Image from "next/image";
 import profileImage from "/public/images/shadow.jpg";
@@ -23,7 +22,7 @@ export default function About() {
             </div>
             <div className="text-black md:w-2/3 p-6">
               <p className="text-lg mb-4">
-                I'm Riyaz, a passionate React developer with 2 years of
+                I am Riyaz, a passionate React developer with 2 years of
                 experience. I specialize in building modern and responsive web
                 applications using the latest technologies.
               </p>
