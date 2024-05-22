@@ -1,0 +1,16 @@
+{
+  "my_portfolio": "محفظتي",
+  "react_developer": "مطور React",
+  "about_description": " أنا رياض، مطور React شغوف بخبرة عامين. أنا متخصص في بناء تطبيقات الويب الحديثة وسريعة الاستجابة باستخدام أحدث التقنيات",
+  "expertise_includes": "تشمل خبرتي:",
+  "react_next_development": "تطوير React.js و Next.js",
+  "responsive_design": "تصميم متجاوب وأولويات التصميم للجوال",
+  "frontend_optimization": "تحسين الواجهة الأمامية وضبط الأداء",
+  "api_integration": "تكامل API والتفاعل مع الخلفية",
+  "about_me":"ْعَنِّي",
+  "home":"بيت",
+  "about":"عن",
+  "contact":"اتصال",
+  "contact_me":"اتصل بي"
+
+}

@@ -1,0 +1,15 @@
+{
+  "my_portfolio": "My Portfolio",
+  "react_developer": "React Developer",
+  "about_description": " I am Riyaz, a passionate React developer with 2 years of experience. I specialize in building modern and responsive webapplications using the latest technologies.",
+  "expertise_includes": "My expertise includes:",
+  "react_next_development": "React.js and Next.js development",
+  "responsive_design": "Responsive and mobile-first design",
+  "frontend_optimization": "Frontend optimization and performance tuning",
+  "api_integration": "API integration and backend interaction",
+  "about_me": "About Me",
+  "home":"Home",
+  "about":"About",
+  "contact":"Contact",
+  "contact_me":"Contact Me"
+}

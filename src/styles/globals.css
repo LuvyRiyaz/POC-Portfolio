@@ -3,48 +3,67 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  /* --background-color-light: #ffffff;
+  --background-color-dark: #1a202c;
+  --text-color-light: #000000;
+  --text-color-dark: #ffffff; */
+  --background-color: white;
+  --text-color:black;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
+html,
 body {
-   background: radial-gradient(circle at center, #000000 0%, #1a1a1a 50%, #000000 100%);
-  color: rgb(var(--foreground-rgb));
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+/* 
+html.dark,
+body.dark {
+  background-color: var(--background-color-dark);
+  color: var(--text-color-dark);
+} */
+.dark{
+  --background-color:black;
+  --text-color:white; 
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-  .neon-flicker {
-    animation: neon-flicker 1s ease-in-out infinite alternate;
-  }
-}
-@keyframes neon-flicker {
-  from {
-    text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
-  }
-  to {
-    text-shadow: 0 0 20px #00f, 0 0 30px #00f, 0 0 40px #00f;
-  }
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-@layer utilities {
-  .social-icon path {
-  fill: white; /* Default color */
+* {
+  box-sizing: border-box;
 }
 
-.social-icon:hover path {
-  fill: #718096; /* Hover color */
+.fixed {
+  position: fixed;
 }
 
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.right-4 {
+  right: 1rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-gray-800 {
+  background-color: #2d3748;
+}
+
+.text-white {
+  color: #ffffff;
 }
