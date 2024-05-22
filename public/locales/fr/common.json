@@ -1,0 +1,16 @@
+{
+  "my_portfolio": "Mon Portefeuille",
+  "react_developer": "Développeur React",
+  "about_description": " Je suis Riyaz, un développeur React passionné avec 2 ans d'expérience. Je me spécialise dans la création d'applications Web modernes et réactives utilisant les dernières technologies.",
+  "expertise_includes": "Mon expertise comprend:",
+  "react_next_development": "Développement avec React.js et Next.js",
+  "responsive_design": "Conception responsive et mobile-first",
+  "frontend_optimization": "Optimisation frontend et tuning des performances",
+  "api_integration": "Intégration API et interaction backend",
+  "about_me": "sur moi",
+  "home":"page d'accueil",
+  "about":"à propos",
+  "contact":"contact",
+  "contact_me:":"Contactez moi"
+
+}

@@ -1,11 +1,12 @@
+import { i18n } from './next-i18next.config.mjs';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  // output: "standalone",
   reactStrictMode: true,
   images: {
     unoptimized: true, // Disables Image Optimization
   },
+  i18n,
 };
 
 export default nextConfig;
